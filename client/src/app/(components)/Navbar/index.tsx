@@ -15,7 +15,7 @@ const Navbar = () => {
         >
           <Menu className="w-4 h-4" />
         </button>
-      </div>
+      
       <div className="relative">
         <input
           type="search"
@@ -27,6 +27,7 @@ const Navbar = () => {
         <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-non">
           <Bell className="text-gray-100" size={20} />
         </div>
+      </div>
       </div>
 
       {/*Right Side*/}
